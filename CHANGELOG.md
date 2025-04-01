@@ -1,7 +1,19 @@
 <!-- markdownlint-disable-file MD004 MD024 MD034 MD036 -->
 # CHANGE LOG
 
-## main(v0.8.7)
+## main(v0.9.1)
+
+- feat: |UI| support google ads
+- feat: |UI| 使用 shadow DOM 防止样式污染
+- feat: |UI| 支持 URL jwt 参数自动登录邮箱，jwt 参数会覆盖浏览器中的 jwt
+
+## v0.9.0
+
+- feat: | Worker | 支持多语言
+- feat: | Worker | `NO_LIMIT_SEND_ROLE` 配置支持多角色, 逗号分割
+- feat: | Actions | build 里增加 `worker-with-wasm-mail-parser.zip` 支持 UI 部署带 `wasm` 的 worker
+
+## v0.8.7
 
 - fix: |UI| 修复移动设备日期显示问题
 - feat: |Worker| 支持通过 `SMTP` 发送邮件, 使用 [zou-yu/worker-mailer](https://github.com/zou-yu/worker-mailer/blob/main/README_zh-CN.md)
